@@ -38,9 +38,9 @@ const FormField = <T extends FieldValues>({
         <FormControl>
           <Input placeholder={placeholder} type={type} {...field} />
         </FormControl>
-        <FormDescription>
+        {/* <FormDescription>
           This is your public display name.
-        </FormDescription>
+        </FormDescription> */}
         <FormMessage />
       </FormItem>
     )}
